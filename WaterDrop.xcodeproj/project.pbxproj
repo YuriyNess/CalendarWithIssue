@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82223CC6237AB99C003C98FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223CC5237AB99C003C98FD /* AppDelegate.swift */; };
+		82223CC8237AB99C003C98FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223CC7237AB99C003C98FD /* ViewController.swift */; };
+		82223CCB237AB99C003C98FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82223CC9237AB99C003C98FD /* Main.storyboard */; };
+		82223CCD237AB9A0003C98FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82223CCC237AB9A0003C98FD /* Assets.xcassets */; };
+		82223CD0237AB9A0003C98FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82223CCE237AB9A0003C98FD /* LaunchScreen.storyboard */; };
+		82223CFD237DD1B2003C98FD /* GwowingCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82223CFB237DD1B2003C98FD /* GwowingCalendarView.xib */; };
+		82223CFE237DD1B2003C98FD /* GwowingCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223CFC237DD1B2003C98FD /* GwowingCalendarView.swift */; };
+		82223D19237DF21D003C98FD /* JTACYearViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D00237DF21D003C98FD /* JTACYearViewProtocols.swift */; };
+		82223D1A237DF21D003C98FD /* JTACInteractionYearFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D01237DF21D003C98FD /* JTACInteractionYearFunctions.swift */; };
+		82223D1B237DF21D003C98FD /* JTACMonthActionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D02237DF21D003C98FD /* JTACMonthActionFunctions.swift */; };
+		82223D1C237DF21D003C98FD /* JTACCollectionMonthViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D03237DF21D003C98FD /* JTACCollectionMonthViewDelegates.swift */; };
+		82223D1D237DF21D003C98FD /* CalendarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D04237DF21D003C98FD /* CalendarStructs.swift */; };
+		82223D1E237DF21D003C98FD /* JTACMonthQueryFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D05237DF21D003C98FD /* JTACMonthQueryFunctions.swift */; };
+		82223D1F237DF21D003C98FD /* CalendarEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D06237DF21D003C98FD /* CalendarEnums.swift */; };
+		82223D20237DF21D003C98FD /* JTACMonthLayoutVerticalCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D07237DF21D003C98FD /* JTACMonthLayoutVerticalCalendar.swift */; };
+		82223D21237DF21D003C98FD /* JTACDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D08237DF21D003C98FD /* JTACDayCell.swift */; };
+		82223D22237DF21D003C98FD /* JTACScrollViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D09237DF21D003C98FD /* JTACScrollViewDelegates.swift */; };
+		82223D23237DF21D003C98FD /* JTACMonthDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D0A237DF21D003C98FD /* JTACMonthDelegateProtocol.swift */; };
+		82223D24237DF21D003C98FD /* JTACMonthReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D0B237DF21D003C98FD /* JTACMonthReusableView.swift */; };
+		82223D25237DF21D003C98FD /* JTACInteractionMonthFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D0C237DF21D003C98FD /* JTACInteractionMonthFunctions.swift */; };
+		82223D26237DF21D003C98FD /* JTACVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D0D237DF21D003C98FD /* JTACVariables.swift */; };
+		82223D27237DF21D003C98FD /* JTACMonthViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D0E237DF21D003C98FD /* JTACMonthViewProtocols.swift */; };
+		82223D28237DF21D003C98FD /* JTACMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D0F237DF21D003C98FD /* JTACMonthView.swift */; };
+		82223D29237DF21D003C98FD /* JTACMonthLayoutHorizontalCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D10237DF21D003C98FD /* JTACMonthLayoutHorizontalCalendar.swift */; };
+		82223D2A237DF21D003C98FD /* JTACMonthLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D11237DF21D003C98FD /* JTACMonthLayout.swift */; };
+		82223D2B237DF21D003C98FD /* JTACMonthLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D12237DF21D003C98FD /* JTACMonthLayoutProtocol.swift */; };
+		82223D2C237DF21D003C98FD /* JTACMonthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D13237DF21D003C98FD /* JTACMonthCell.swift */; };
+		82223D2D237DF21D003C98FD /* Infosss.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82223D14237DF21D003C98FD /* Infosss.plist */; };
+		82223D2E237DF21D003C98FD /* GlobalFunctionsAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D15237DF21D003C98FD /* GlobalFunctionsAndExtensions.swift */; };
+		82223D2F237DF21D003C98FD /* JTACYearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D16237DF21D003C98FD /* JTACYearView.swift */; };
+		82223D30237DF21D003C98FD /* JTACCollectionYearViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D17237DF21D003C98FD /* JTACCollectionYearViewDelegates.swift */; };
+		82223D34237DF346003C98FD /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D33237DF346003C98FD /* DateCell.swift */; };
+		82223D38237DFB01003C98FD /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D37237DFB01003C98FD /* CalendarView.swift */; };
+		82223D3A237DFE81003C98FD /* DateHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82223D39237DFE81003C98FD /* DateHeader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82223CC2237AB99C003C98FD /* WaterDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82223CC5237AB99C003C98FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82223CC7237AB99C003C98FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82223CCA237AB99C003C98FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82223CCC237AB9A0003C98FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82223CCF237AB9A0003C98FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82223CD1237AB9A0003C98FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82223CFB237DD1B2003C98FD /* GwowingCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GwowingCalendarView.xib; sourceTree = "<group>"; };
+		82223CFC237DD1B2003C98FD /* GwowingCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GwowingCalendarView.swift; sourceTree = "<group>"; };
+		82223D00237DF21D003C98FD /* JTACYearViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACYearViewProtocols.swift; sourceTree = "<group>"; };
+		82223D01237DF21D003C98FD /* JTACInteractionYearFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACInteractionYearFunctions.swift; sourceTree = "<group>"; };
+		82223D02237DF21D003C98FD /* JTACMonthActionFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthActionFunctions.swift; sourceTree = "<group>"; };
+		82223D03237DF21D003C98FD /* JTACCollectionMonthViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACCollectionMonthViewDelegates.swift; sourceTree = "<group>"; };
+		82223D04237DF21D003C98FD /* CalendarStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarStructs.swift; sourceTree = "<group>"; };
+		82223D05237DF21D003C98FD /* JTACMonthQueryFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthQueryFunctions.swift; sourceTree = "<group>"; };
+		82223D06237DF21D003C98FD /* CalendarEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarEnums.swift; sourceTree = "<group>"; };
+		82223D07237DF21D003C98FD /* JTACMonthLayoutVerticalCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthLayoutVerticalCalendar.swift; sourceTree = "<group>"; };
+		82223D08237DF21D003C98FD /* JTACDayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACDayCell.swift; sourceTree = "<group>"; };
+		82223D09237DF21D003C98FD /* JTACScrollViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACScrollViewDelegates.swift; sourceTree = "<group>"; };
+		82223D0A237DF21D003C98FD /* JTACMonthDelegateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthDelegateProtocol.swift; sourceTree = "<group>"; };
+		82223D0B237DF21D003C98FD /* JTACMonthReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthReusableView.swift; sourceTree = "<group>"; };
+		82223D0C237DF21D003C98FD /* JTACInteractionMonthFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACInteractionMonthFunctions.swift; sourceTree = "<group>"; };
+		82223D0D237DF21D003C98FD /* JTACVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACVariables.swift; sourceTree = "<group>"; };
+		82223D0E237DF21D003C98FD /* JTACMonthViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthViewProtocols.swift; sourceTree = "<group>"; };
+		82223D0F237DF21D003C98FD /* JTACMonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthView.swift; sourceTree = "<group>"; };
+		82223D10237DF21D003C98FD /* JTACMonthLayoutHorizontalCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthLayoutHorizontalCalendar.swift; sourceTree = "<group>"; };
+		82223D11237DF21D003C98FD /* JTACMonthLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthLayout.swift; sourceTree = "<group>"; };
+		82223D12237DF21D003C98FD /* JTACMonthLayoutProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthLayoutProtocol.swift; sourceTree = "<group>"; };
+		82223D13237DF21D003C98FD /* JTACMonthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthCell.swift; sourceTree = "<group>"; };
+		82223D14237DF21D003C98FD /* Infosss.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Infosss.plist; sourceTree = "<group>"; };
+		82223D15237DF21D003C98FD /* GlobalFunctionsAndExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctionsAndExtensions.swift; sourceTree = "<group>"; };
+		82223D16237DF21D003C98FD /* JTACYearView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACYearView.swift; sourceTree = "<group>"; };
+		82223D17237DF21D003C98FD /* JTACCollectionYearViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACCollectionYearViewDelegates.swift; sourceTree = "<group>"; };
+		82223D18237DF21D003C98FD /* JTAppleCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAppleCalendar.h; sourceTree = "<group>"; };
+		82223D33237DF346003C98FD /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		82223D37237DFB01003C98FD /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		82223D39237DFE81003C98FD /* DateHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHeader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82223CBF237AB99C003C98FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82223CB9237AB99C003C98FD = {
+			isa = PBXGroup;
+			children = (
+				82223CC4237AB99C003C98FD /* WaterDrop */,
+				82223CC3237AB99C003C98FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82223CC3237AB99C003C98FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82223CC2237AB99C003C98FD /* WaterDrop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82223CC4237AB99C003C98FD /* WaterDrop */ = {
+			isa = PBXGroup;
+			children = (
+				82223D31237DF310003C98FD /* Calendar */,
+				82223CC5237AB99C003C98FD /* AppDelegate.swift */,
+				82223CC7237AB99C003C98FD /* ViewController.swift */,
+				82223CC9237AB99C003C98FD /* Main.storyboard */,
+				82223CCC237AB9A0003C98FD /* Assets.xcassets */,
+				82223CCE237AB9A0003C98FD /* LaunchScreen.storyboard */,
+				82223CD1237AB9A0003C98FD /* Info.plist */,
+			);
+			path = WaterDrop;
+			sourceTree = "<group>";
+		};
+		82223CFA237DD1B2003C98FD /* GwowingCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				82223CFB237DD1B2003C98FD /* GwowingCalendarView.xib */,
+				82223CFC237DD1B2003C98FD /* GwowingCalendarView.swift */,
+			);
+			path = GwowingCalendarView;
+			sourceTree = "<group>";
+		};
+		82223CFF237DF21D003C98FD /* JTAppleCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				82223D00237DF21D003C98FD /* JTACYearViewProtocols.swift */,
+				82223D01237DF21D003C98FD /* JTACInteractionYearFunctions.swift */,
+				82223D02237DF21D003C98FD /* JTACMonthActionFunctions.swift */,
+				82223D03237DF21D003C98FD /* JTACCollectionMonthViewDelegates.swift */,
+				82223D04237DF21D003C98FD /* CalendarStructs.swift */,
+				82223D05237DF21D003C98FD /* JTACMonthQueryFunctions.swift */,
+				82223D06237DF21D003C98FD /* CalendarEnums.swift */,
+				82223D07237DF21D003C98FD /* JTACMonthLayoutVerticalCalendar.swift */,
+				82223D08237DF21D003C98FD /* JTACDayCell.swift */,
+				82223D09237DF21D003C98FD /* JTACScrollViewDelegates.swift */,
+				82223D0A237DF21D003C98FD /* JTACMonthDelegateProtocol.swift */,
+				82223D0B237DF21D003C98FD /* JTACMonthReusableView.swift */,
+				82223D0C237DF21D003C98FD /* JTACInteractionMonthFunctions.swift */,
+				82223D0D237DF21D003C98FD /* JTACVariables.swift */,
+				82223D0E237DF21D003C98FD /* JTACMonthViewProtocols.swift */,
+				82223D0F237DF21D003C98FD /* JTACMonthView.swift */,
+				82223D10237DF21D003C98FD /* JTACMonthLayoutHorizontalCalendar.swift */,
+				82223D11237DF21D003C98FD /* JTACMonthLayout.swift */,
+				82223D12237DF21D003C98FD /* JTACMonthLayoutProtocol.swift */,
+				82223D13237DF21D003C98FD /* JTACMonthCell.swift */,
+				82223D14237DF21D003C98FD /* Infosss.plist */,
+				82223D15237DF21D003C98FD /* GlobalFunctionsAndExtensions.swift */,
+				82223D16237DF21D003C98FD /* JTACYearView.swift */,
+				82223D17237DF21D003C98FD /* JTACCollectionYearViewDelegates.swift */,
+				82223D18237DF21D003C98FD /* JTAppleCalendar.h */,
+			);
+			path = JTAppleCalendar;
+			sourceTree = "<group>";
+		};
+		82223D31237DF310003C98FD /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				82223D32237DF32B003C98FD /* CalendarView */,
+				82223CFF237DF21D003C98FD /* JTAppleCalendar */,
+				82223CFA237DD1B2003C98FD /* GwowingCalendarView */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		82223D32237DF32B003C98FD /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				82223D33237DF346003C98FD /* DateCell.swift */,
+				82223D39237DFE81003C98FD /* DateHeader.swift */,
+				82223D37237DFB01003C98FD /* CalendarView.swift */,
+			);
+			path = CalendarView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82223CC1237AB99C003C98FD /* WaterDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82223CD4237AB9A0003C98FD /* Build configuration list for PBXNativeTarget "WaterDrop" */;
+			buildPhases = (
+				82223CBE237AB99C003C98FD /* Sources */,
+				82223CBF237AB99C003C98FD /* Frameworks */,
+				82223CC0237AB99C003C98FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterDrop;
+			productName = WaterDrop;
+			productReference = 82223CC2237AB99C003C98FD /* WaterDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82223CBA237AB99C003C98FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = YuriyFpc;
+				TargetAttributes = {
+					82223CC1237AB99C003C98FD = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 82223CBD237AB99C003C98FD /* Build configuration list for PBXProject "WaterDrop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82223CB9237AB99C003C98FD;
+			productRefGroup = 82223CC3237AB99C003C98FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82223CC1237AB99C003C98FD /* WaterDrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82223CC0237AB99C003C98FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82223CD0237AB9A0003C98FD /* LaunchScreen.storyboard in Resources */,
+				82223CCD237AB9A0003C98FD /* Assets.xcassets in Resources */,
+				82223CCB237AB99C003C98FD /* Main.storyboard in Resources */,
+				82223D2D237DF21D003C98FD /* Infosss.plist in Resources */,
+				82223CFD237DD1B2003C98FD /* GwowingCalendarView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82223CBE237AB99C003C98FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82223D2B237DF21D003C98FD /* JTACMonthLayoutProtocol.swift in Sources */,
+				82223CC8237AB99C003C98FD /* ViewController.swift in Sources */,
+				82223D2E237DF21D003C98FD /* GlobalFunctionsAndExtensions.swift in Sources */,
+				82223D28237DF21D003C98FD /* JTACMonthView.swift in Sources */,
+				82223D34237DF346003C98FD /* DateCell.swift in Sources */,
+				82223D24237DF21D003C98FD /* JTACMonthReusableView.swift in Sources */,
+				82223D2A237DF21D003C98FD /* JTACMonthLayout.swift in Sources */,
+				82223D23237DF21D003C98FD /* JTACMonthDelegateProtocol.swift in Sources */,
+				82223D2F237DF21D003C98FD /* JTACYearView.swift in Sources */,
+				82223D26237DF21D003C98FD /* JTACVariables.swift in Sources */,
+				82223D1C237DF21D003C98FD /* JTACCollectionMonthViewDelegates.swift in Sources */,
+				82223D3A237DFE81003C98FD /* DateHeader.swift in Sources */,
+				82223D1E237DF21D003C98FD /* JTACMonthQueryFunctions.swift in Sources */,
+				82223D1D237DF21D003C98FD /* CalendarStructs.swift in Sources */,
+				82223D29237DF21D003C98FD /* JTACMonthLayoutHorizontalCalendar.swift in Sources */,
+				82223D1F237DF21D003C98FD /* CalendarEnums.swift in Sources */,
+				82223D25237DF21D003C98FD /* JTACInteractionMonthFunctions.swift in Sources */,
+				82223D27237DF21D003C98FD /* JTACMonthViewProtocols.swift in Sources */,
+				82223D22237DF21D003C98FD /* JTACScrollViewDelegates.swift in Sources */,
+				82223D2C237DF21D003C98FD /* JTACMonthCell.swift in Sources */,
+				82223D30237DF21D003C98FD /* JTACCollectionYearViewDelegates.swift in Sources */,
+				82223D19237DF21D003C98FD /* JTACYearViewProtocols.swift in Sources */,
+				82223D1B237DF21D003C98FD /* JTACMonthActionFunctions.swift in Sources */,
+				82223D38237DFB01003C98FD /* CalendarView.swift in Sources */,
+				82223D20237DF21D003C98FD /* JTACMonthLayoutVerticalCalendar.swift in Sources */,
+				82223D21237DF21D003C98FD /* JTACDayCell.swift in Sources */,
+				82223CC6237AB99C003C98FD /* AppDelegate.swift in Sources */,
+				82223D1A237DF21D003C98FD /* JTACInteractionYearFunctions.swift in Sources */,
+				82223CFE237DD1B2003C98FD /* GwowingCalendarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82223CC9237AB99C003C98FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82223CCA237AB99C003C98FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82223CCE237AB9A0003C98FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82223CCF237AB9A0003C98FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82223CD2237AB9A0003C98FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82223CD3237AB9A0003C98FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82223CD5237AB9A0003C98FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RGXEW395Q;
+				INFOPLIST_FILE = WaterDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YF.WaterDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82223CD6237AB9A0003C98FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RGXEW395Q;
+				INFOPLIST_FILE = WaterDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YF.WaterDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82223CBD237AB99C003C98FD /* Build configuration list for PBXProject "WaterDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82223CD2237AB9A0003C98FD /* Debug */,
+				82223CD3237AB9A0003C98FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82223CD4237AB9A0003C98FD /* Build configuration list for PBXNativeTarget "WaterDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82223CD5237AB9A0003C98FD /* Debug */,
+				82223CD6237AB9A0003C98FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82223CBA237AB99C003C98FD /* Project object */;
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GwowingCalendarView" customModule="WaterDrop" customModuleProvider="target">
+            <connections>
+                <outlet property="leftLabel" destination="2Pe-kO-FwO" id="n3E-lu-ys8"/>
+                <outlet property="leftView" destination="Ibn-t4-Pze" id="ERj-ux-RBW"/>
+                <outlet property="rightLabel" destination="fEX-os-UUq" id="oeT-EN-rW6"/>
+                <outlet property="rightView" destination="D7t-Ff-EVw" id="tjn-Ca-omk"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="144"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="0FN-jM-Q4q">
+                    <rect key="frame" x="0.0" y="44" width="367" height="66"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ibn-t4-Pze">
+                            <rect key="frame" x="0.0" y="0.0" width="181.5" height="66"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12.03.18" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Pe-kO-FwO">
+                                    <rect key="frame" x="57.5" y="22.5" width="67" height="21.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="2Pe-kO-FwO" firstAttribute="centerY" secondItem="Ibn-t4-Pze" secondAttribute="centerY" id="5ui-qD-jUE"/>
+                                <constraint firstItem="2Pe-kO-FwO" firstAttribute="centerX" secondItem="Ibn-t4-Pze" secondAttribute="centerX" id="XyX-fO-rtd"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D7t-Ff-EVw">
+                            <rect key="frame" x="185.5" y="0.0" width="181.5" height="66"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12.03.18" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEX-os-UUq">
+                                    <rect key="frame" x="57.5" y="22.5" width="67" height="21.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="fEX-os-UUq" firstAttribute="centerX" secondItem="D7t-Ff-EVw" secondAttribute="centerX" id="cER-OU-FCk"/>
+                                <constraint firstItem="fEX-os-UUq" firstAttribute="centerY" secondItem="D7t-Ff-EVw" secondAttribute="centerY" id="di6-La-tOV"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="0FN-jM-Q4q" secondAttribute="bottom" id="DFI-n4-iiq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="0FN-jM-Q4q" secondAttribute="trailing" id="DlW-pd-2jY"/>
+                <constraint firstItem="0FN-jM-Q4q" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Dyy-8z-koi"/>
+                <constraint firstItem="0FN-jM-Q4q" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="U9m-P2-dPH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="339.85507246376812" y="-99.107142857142847"/>
+        </view>
+    </objects>
+</document>
